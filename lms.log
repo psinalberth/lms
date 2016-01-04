@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.24)  4 JAN 2016 16:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.24)  4 JAN 2016 18:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -498,43 +498,45 @@ pt x 232.2276pt>
 File: fig1.jpg Graphic file (type jpg)
 
 <use fig1.jpg>
-Package pdftex.def Info: fig1.jpg used on input line 97.
+Package pdftex.def Info: fig1.jpg used on input line 110.
 (pdftex.def)             Requested size: 213.39568pt x 194.81471pt.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 98.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 111.
+
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 98.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 111.
 
 <fig2.jpg, id=14, 205.7286pt x 234.1548pt>
 File: fig2.jpg Graphic file (type jpg)
  <use fig2.jpg>
-Package pdftex.def Info: fig2.jpg used on input line 104.
+Package pdftex.def Info: fig2.jpg used on input line 117.
 (pdftex.def)             Requested size: 128.0387pt x 145.73541pt.
- [2 <./fig1.jpg> <./fig2.jpg>] (./lms.bbl) [3] (./lms.aux) ) 
+ [2 <./fig1.jpg>]
+(./lms.bbl [3 <./fig2.jpg>]) [4] (./lms.aux) ) 
 Here is how much of TeX's memory you used:
- 3308 strings out of 495004
- 44924 string characters out of 6180661
- 114136 words of memory out of 5000000
- 6448 multiletter control sequences out of 15000+600000
+ 3310 strings out of 495004
+ 44962 string characters out of 6180661
+ 114175 words of memory out of 5000000
+ 6450 multiletter control sequences out of 15000+600000
  25281 words of font info for 49 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  38i,10n,28p,252b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive
-/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8
-a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/font
-s/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
-es/utmri8a.pfb>
-Output written on lms.pdf (3 pages, 166845 bytes).
+{/usr/share/texlive/texmf-dist/fo
+nts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on lms.pdf (4 pages, 168665 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

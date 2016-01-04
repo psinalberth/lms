@@ -1,5 +1,10 @@
 \begin{thebibliography}{}
 
+\bibitem[Bailey 1992]{bailey1992wanted}
+Bailey, G.~D. (1992).
+\newblock Wanted: A road map for understanding integrated learning systems.
+\newblock {\em Educational Technology}, 32(9):3--5.
+
 \bibitem[Boulic and Renault 1991]{boulic:91}
 Boulic, R. and Renault, O. (1991).
 \newblock 3d hierarchies for animation.
@@ -22,5 +27,11 @@ Smith, A. and Jones, B. (1999).
 \newblock On the complexity of computing.
 \newblock In Smith-Jones, A.~B., editor, {\em Advances in Computer Science},
   pages 555--566. Publishing Press.
+
+\bibitem[Watson and Watson 2007]{watson2007learning}
+Watson, W.~R. and Watson, S.~L. (2007).
+\newblock What are learning management systems, what are they not, and what
+  should they become?
+\newblock {\em TechTrends}, 51(2):29.
 
 \end{thebibliography}
