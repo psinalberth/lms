@@ -6,7 +6,9 @@
 
 \usepackage[brazil]{babel}   
 %\usepackage[latin1]{inputenc}  
-\usepackage[utf8]{inputenc}  
+\usepackage[utf8]{inputenc}
+
+\graphicspath{{./img/}}
 % UTF-8 encoding is recommended by ShareLaTex
 
 % \usepackage{natbib}
@@ -17,10 +19,10 @@
 
 \title{Sistemas Gerenciadores de Conteúdo e de Aprendizagem}
 
-\author{Inalberth P. Santos\inst{1}, Rafael C. Gusmão\inst{1}, Ramon V. S. Bezerra\inst{1}}
+\author{Inalberth P. Santos\inst{1}, Ramon C. Gusmão\inst{1}, Ramon V. S. Bezerra\inst{1}}
 
 \address{Instituto Federal de Educação, Ciência e Tecnologia do Maranhão\\
-  Caixa Postal 15.064 -- 91.501-970 -- Porto Alegre -- RS -- Brazil
+  Av. Getúlio Vargas, 04 -- São Luís -- MA -- Brasil
   \email{\{inalberth07, ramoncgusmao, ramonbezerra90\}@gmail.com}
 }
 
@@ -56,11 +58,11 @@ gerenciamento de conteúdo e aprendizado: \emph{LMS} (gerenciador de aprendizado
 aprendizagem), descrevendo suas origens, características e arquitetura, aplicações e a relação entre os mesmos, ressaltando-se o fato de que, 
 apesar de haver consenso na definição de cada um, é comum o emprego incorreto dos termos.
 
-\section{LMS - \textit{Learning Management System}} \label{sec:lms}
+\section{LMS (\textit{Learning Management System})} \label{sec:lms}
 
 Os LMS (do inglês, \textit{Learning Management Systems}) são aplicações de \textit{software} baseadas em tecnologias Web ou não, utilizadas para 
-planejar, implementar e dar suporte ao processo de aprendizagem. A TalentLMS \-- plataforma de aprendizado virtual utilizada por diversas 
-organizações em segmentos distintos \-- faz em sua página uma breve explanação das 
+planejar, implementar e dar suporte ao processo de aprendizagem. A TalentLMS -- plataforma de aprendizado virtual utilizada por diversas 
+organizações em segmentos distintos -- faz em sua página uma breve explanação das 
 palavras que compõem o termo\footnote{http://www.talentlms.com/what-is-an-lms/\#what-is-an-lms}:
 
 \begin{itemize}
@@ -95,7 +97,7 @@ Em termos educacionais, constitui um LMS, conforme visto em \cite{bailey1992want
 
 Assim como outros \textit{softwares}, estes sistemas podem ser aplicados em um ambiente corporativo. A seguir são listadas as características 
 recomendadas para a composição do mesmo, segundo a Sociedade Americana de Treinamento e Desenvolvimento:
- 
+
 \begin{itemize}
  \item Integração com o Sistema de Recursos Humanos
  \item Ferramentas de administração que possibilitem o gerenciamento dos registros de usuários, perfis, conteúdos, orçamentos, agendamento para 
@@ -105,13 +107,31 @@ recomendadas para a composição do mesmo, segundo a Sociedade Americana de Trei
  \item Integração de conteúdo com \textit{software} de aprendizagem de terceiros
 \end{itemize}
 
-\section{CMS - \textit{Course Management System}}
+Conforme \cite{watson2007learning}, o ponto principal para entender as diferenças entre LMS e outros termos relacionados à educação utilizando 
+computador é compreender a natureza sistêmica dos LMS, reforçando a ideia de que este é um \textit{framework} responsável por gerenciar todos 
+os aspectos do processo de aprendizagem, não se limitando, portanto, apenas à disponibilização de conteúdo, mas fazendo o gerenciamento dos 
+usuários, salas de aula, cursos, análise de desempenho dos estudantes/aprendizes
+
+\subsubsection{Vantagens}
+
+São listadas a seguir algumas das vantagens desta categoria de sistemas, apresentadas pela Mindflash\footnote{https://www.mindflash.com/lms}, 
+empresa que promove treinamentos para diversas empresas:
+
+\begin{itemize}
+ \item Fácil adaptação e reuso de materiais.
+ \item Mais opções para os criadores dos cursos como métodos de disponibilização, design de materiais, técnicas de avaliação.
+ \item Redução de custos relacionados aos gastos com o desenvolvimento e manutenção de conteúdo por terceiros.
+ \item Melhoria no desenvolvimento profissional e avaliação, permitindo a maior agregação de valor aos Recursos Humanos das companhias e ao mesmo 
+ proporcionando aos empregados seu desenvolvimento individual.
+\end{itemize}
+
+\section{CMS (\textit{Course Management System})}
 
 \section{LCMS}
 
 \section{Relação entre LMS, CMS e LCMS}
 
-Por muitas vezes os termos estudados são utilizados incorretamente
+Como já mencionado, por muitas vezes os termos estudados são utilizados incorretamente
 
 \section{Figures and Captions}\label{sec:figs}
 
@@ -183,5 +203,16 @@ indented, while the subsequent should be indented by 0.5 cm.
 
 \bibliographystyle{sbc}
 \bibliography{referencias}
+
+\newpage
+\appendix
+\section{Lorem Ipsum Dolor}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.55\textwidth]{history-of-lms.png}
+\caption{A typical figure}
+\label{fig:exampleFig1}
+\end{figure}
 
 \end{document}
