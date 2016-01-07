@@ -6,7 +6,9 @@
 
 \usepackage[brazil]{babel}   
 %\usepackage[latin1]{inputenc}  
-\usepackage[utf8]{inputenc}  
+\usepackage[utf8]{inputenc}
+
+\graphicspath{{./img/}}
 % UTF-8 encoding is recommended by ShareLaTex
 
 % \usepackage{natbib}
@@ -17,10 +19,10 @@
 
 \title{Sistemas Gerenciadores de Conteúdo e de Aprendizagem}
 
-\author{Inalberth P. Santos\inst{1}, Rafael C. Gusmão\inst{1}, Ramon V. S. Bezerra\inst{1}}
+\author{Inalberth P. Santos\inst{1}, Ramon C. Gusmão\inst{1}, Ramon V. S. Bezerra\inst{1}}
 
 \address{Instituto Federal de Educação, Ciência e Tecnologia do Maranhão\\
-  Caixa Postal 15.064 -- 91.501-970 -- Porto Alegre -- RS -- Brazil
+  Av. Getúlio Vargas, 04 -- São Luís -- MA -- Brasil
   \email{\{inalberth07, ramoncgusmao, ramonbezerra90\}@gmail.com}
 }
 
@@ -29,38 +31,34 @@
 \maketitle
 
 \begin{abstract}
-  This meta-paper describes the style to be used in articles and short papers
-  for SBC conferences. For papers in English, you should add just an abstract
-  while for the papers in Portuguese, we also ask for an abstract in
-  Portuguese (``resumo''). In both cases, abstracts should not have more than
-  10 lines and must be in the first page of the paper.
+  The purpose of this paper is present Content and Learning Management Systems, which are organised in three basic categories: content, learning and the third one 
+  based on content and learning, explaining their origins, characteristics, usage and relations among them, as well as showing their similarities 
+  and differences, since even today such terms are used incorrectly, contributing to a possible wrong choice for a company or educational 
+  institution to acquire such a project.
 \end{abstract}
      
 \begin{resumo} 
-  Este meta-artigo descreve o estilo a ser usado na confecção de artigos e
-  resumos de artigos para publicação nos anais das conferências organizadas
-  pela SBC. É solicitada a escrita de resumo e abstract apenas para os artigos
-  escritos em português. Artigos em inglês deverão apresentar apenas abstract.
-  Nos dois casos, o autor deve tomar cuidado para que o resumo (e o abstract)
-  não ultrapassem 10 linhas cada, sendo que ambos devem estar na primeira
-  página do artigo.
+  O objetivo deste artigo é apresentar os Sistemas de Gerenciamento de Conteúdo e Aprendizagem, os quais se dividem em três categorias básicas:
+  conteúdo, aprendizado e o terceiro baseado em ambos aprendizado e conteúdo, abordando suas origens, características, aplicações e por fim 
+  relacioná-los, exibindo suas semelhanças e diferenças, visto que mesmo hoje o emprego destes termos ocorre de maneira incorreta, o que pode 
+  resultar em uma escolha equivocada para uma empresa ou instituição de ensino ao conceber um projeto deste segmento.
 \end{resumo}
 
 \section{Introdução} \label{sec:introducao}
 
-Segundo \cite{phillipo2012link}, os sistemas gerenciadores de conteúdo e aprendizagem são o \emph{``elo perdido''} que interliga as as reformas na 
-educação contemporânea com o uso criativo e efetivo da tecnologia, porém, uma vez que a tecnologia por si só não é capaz de prover aprendizado. 
-Logo os sistemas os quais são objeto de estudo destre trabalho se apresentam como ferramentas que possibilitam ao instrutor orientar e 
+Segundo \cite{phillipo2012link}, os sistemas gerenciadores de conteúdo e aprendizagem são o \emph{``elo perdido''} que interliga as reformas na 
+educação contemporânea com o uso criativo e efetivo da tecnologia, porém, esta por si só não é capaz de promover aprendizado. 
+Logo os sistemas os quais são objeto de estudo deste trabalho se apresentam como ferramentas que possibilitam ao instrutor orientar e 
 gerenciar os objetivos alcançados pelos estudantes de maneira mais eficiente. Neste trabalho serão apresentados os principais sistemas de 
 gerenciamento de conteúdo e aprendizado: \emph{LMS} (gerenciador de aprendizado), \emph{CMS} (gerenciador de cursos) e \emph{LCMS} (gerenciador de conteúdos de 
 aprendizagem), descrevendo suas origens, características e arquitetura, aplicações e a relação entre os mesmos, ressaltando-se o fato de que, 
 apesar de haver consenso na definição de cada um, é comum o emprego incorreto dos termos.
 
-\section{LMS - \textit{Learning Management System}} \label{sec:lms}
+\section{LMS (\textit{Learning Management Systems})} \label{sec:lms}
 
 Os LMS (do inglês, \textit{Learning Management Systems}) são aplicações de \textit{software} baseadas em tecnologias Web ou não, utilizadas para 
-planejar, implementar e dar suporte ao processo de aprendizagem. A TalentLMS \-- plataforma de aprendizado virtual utilizada por diversas 
-organizações em segmentos distintos \-- faz em sua página uma breve explanação das 
+planejar, implementar e dar suporte ao processo de aprendizagem. A TalentLMS -- plataforma de aprendizado virtual utilizada por diversas 
+organizações em segmentos distintos -- faz em sua página uma breve explanação das 
 palavras que compõem o termo\footnote{http://www.talentlms.com/what-is-an-lms/\#what-is-an-lms}:
 
 \begin{itemize}
@@ -97,95 +95,56 @@ Assim como outros \textit{softwares}, estes sistemas podem ser aplicados em um a
 recomendadas para a composição do mesmo, segundo a Sociedade Americana de Treinamento e Desenvolvimento:
 
 \begin{itemize}
- \item Integração com o Sistema de Recursos Humanos
+ \item Integração com o Sistema de Recursos Humanos.
  \item Ferramentas de administração que possibilitem o gerenciamento dos registros de usuários, perfis, conteúdos, orçamentos, agendamento para 
- aprendizes, tutores e salas de aula
- \item Disponibilização de acesso ao conteúdo envolvendo o 
+ aprendizes, tutores e salas de aula.
+ \item Disponibilização de acesso ao conteúdo envolvendo o meio (sala de aula, \textit{online}), método (através de um orientador, 
+ somente aprendiz) e aprendizes (alunos, clientes).
  \item Desenvolvimento de conteúdo (autoria, manutenção e armazenamento)
  \item Integração de conteúdo com \textit{software} de aprendizagem de terceiros
+ \item Adoção dos modelos SCORM e AICC, os quais permitem importar gerenciar conteúdos seguindo padrões independentemente dos sistemas de 
+ autoria utilizados para criá-los.
 \end{itemize}
 
-\subsection{Vantagens}
+Conforme \cite{watson2007learning}, o ponto principal para entender as diferenças entre LMS e outros termos relacionados à educação utilizando 
+computador é compreender a natureza sistêmica dos LMS, reforçando a ideia de que este é um \textit{framework} responsável por gerenciar todos 
+os aspectos do processo de aprendizagem, não se limitando, portanto, apenas à disponibilização de conteúdo, mas fazendo o gerenciamento dos 
+usuários, salas de aula, cursos, análise de desempenho dos estudantes/aprendizes, acompanhando o progresso obtido, coletando e apresentando os 
+dados para supervisionar o processo de aprendizagem da organização como um todo.
 
+\subsubsection{Vantagens}
 
+São listadas a seguir algumas das vantagens desta categoria de sistemas, apresentadas pela Mindflash\footnote{https://www.mindflash.com/lms}, 
+empresa que promove treinamentos para diversas empresas:
 
-\section{CMS - \textit{Course Management System}}
+\begin{itemize}
+ \item Fácil adaptação e reuso de materiais.
+ \item Mais opções para os criadores dos cursos como métodos de disponibilização, design de materiais, técnicas de avaliação.
+ \item Redução de custos relacionados aos gastos com o desenvolvimento e manutenção de conteúdo por terceiros.
+ \item Melhoria no desenvolvimento profissional e avaliação, permitindo a maior agregação de valor aos Recursos Humanos das companhias e ao mesmo 
+ proporcionando aos empregados seu desenvolvimento individual.
+\end{itemize}
 
-\section{LCMS}
+\section{CMS (\textit{Content Management Systems})}
+
+\section{LCMS (\textit{Learning Content Management Systems})}
 
 \section{Relação entre LMS, CMS e LCMS}
 
 Como já mencionado, por muitas vezes os termos estudados são utilizados incorretamente
 
-\section{Figures and Captions}\label{sec:figs}
+\bibliographystyle{sbc}
+\bibliography{referencias}
 
-Figure and table captions should be centered if less than one line
-(Figure~\ref{fig:exampleFig1}), otherwise justified and indented by 0.8cm on
-both margins, as shown in Figure~\ref{fig:exampleFig2}. The caption font must
-be Helvetica, 10 point, boldface, with 6 points of space before and after each
-caption.
+\newpage
+\appendix
+\section{Linha do Tempo dos LMS}
 
 \begin{figure}[ht]
 \centering
-\includegraphics[width=.5\textwidth]{fig1.jpg}
+\includegraphics[width=.55\textwidth]{history-of-lms.png}
 \caption{A typical figure}
 \label{fig:exampleFig1}
 \end{figure}
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=.3\textwidth]{fig2.jpg}
-\caption{This figure is an example of a figure caption taking more than one
-  line and justified considering margins mentioned in Section~\ref{sec:figs}.}
-\label{fig:exampleFig2}
-\end{figure}
-
-In tables, try to avoid the use of colored or shaded backgrounds, and avoid
-thick, doubled, or unnecessary framing lines. When reporting empirical data,
-do not use more decimal digits than warranted by their precision and
-reproducibility. Table caption must be placed before the table (see Table 1)
-and the font used must also be Helvetica, 10 point, boldface, with 6 points of
-space before and after each caption.
-
-\begin{table}[ht]
-\centering
-\caption{Variables to be considered on the evaluation of interaction
-  techniques}
-\label{tab:exTable1}
-\smallskip
-\begin{tabular}{|l|c|c|}
-\hline
-& Value 1 & Value 2\\[0.5ex]
-\hline
-&&\\[-2ex]
-Case 1 & 1.0 $\pm$ 0.1 & 1.75$\times$10$^{-5}$ $\pm$ 5$\times$10$^{-7}$\\[0.5ex]
-\hline
-&&\\[-2ex]
-Case 2 & 0.003(1) & 100.0\\[0.5ex]
-\hline
-\end{tabular}
-\end{table}
-
-\section{Images}
-
-All images and illustrations should be in black-and-white, or gray tones,
-excepting for the papers that will be electronically available (on CD-ROMs,
-internet, etc.). The image resolution on paper should be about 600 dpi for
-black-and-white images, and 150-300 dpi for grayscale images.  Do not include
-images with excessive resolution, as they may take hours to print, without any
-visible difference in the result. 
-
-\section{References}
-
-Bibliographic references must be unambiguous and uniform.  We recommend giving
-the author names references in brackets, e.g. \cite{knuth:84},
-\cite{boulic:91}, and \cite{smith:99}.
-
-The references must be listed using 12 point font size, with 6 points of space
-before each reference. The first line of each reference should not be
-indented, while the subsequent should be indented by 0.5 cm.
-
-\bibliographystyle{sbc}
-\bibliography{referencias}
 
 \end{document}
