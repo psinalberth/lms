@@ -4,12 +4,12 @@
 
 \usepackage{graphicx,url}
 
-\usepackage[brazil]{babel}   
+\usepackage[brazil]{babel}   	
 %\usepackage[latin1]{inputenc}  
 \usepackage[utf8]{inputenc}
 
 \graphicspath{{./img/}}
-% UTF-8 encoding is recommended by ShareLaTex
+% UTF-8 encoding is recommended by ShareLaTex 			
 
 % \usepackage{natbib}
 % 
@@ -27,7 +27,7 @@
 }
 
 \begin{document} 
-
+    
 \maketitle
 
 \begin{abstract}
@@ -131,7 +131,10 @@ empresa que promove treinamentos para diversas empresas:
 
 \section{Relação entre LMS, CMS e LCMS}
 
-Como já mencionado, por muitas vezes os termos estudados são utilizados incorretamente
+Como já mencionado, por muitas vezes os termos estudados são utilizados incorretamente. Conforme visto em \cite{watson2007learning}, o uso 
+inadequado do termo LMS na literatura é frequentemente associado a aplicações identificadas como CMS. O mesmo autor relata que esta modalidade é 
+utilizada principalmente para aprendizado online, possuindo suporte para inclusão de material online, associar alunos com cursos, monitorar o 
+desempenho dos estudantes/aprendizes, armazenar as submissões, funcionalidades as quais podem ser encontradas em um LMS, tornando possível 
 
 \bibliographystyle{sbc}
 \bibliography{referencias}
@@ -140,11 +143,11 @@ Como já mencionado, por muitas vezes os termos estudados são utilizados incorr
 \appendix
 \section{Linha do Tempo dos LMS}
 
-\begin{figure}[ht]
-\centering
-\includegraphics[width=.55\textwidth]{history-of-lms.png}
-\caption{A typical figure}
-\label{fig:exampleFig1}
-\end{figure}
+% \begin{figure}[ht]
+% \centering
+% \includegraphics[width=.55\textwidth]{history-of-lms.png}
+% \caption{A typical figure}
+% \label{fig:exampleFig1}
+% \end{figure}
 
 \end{document}
